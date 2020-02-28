@@ -8,7 +8,7 @@ def calculator(num):
     if shouldPay <= 0:
         tax = 0
     elif 0<shouldPay<=3000:
-        tax = shouldpay * 0.03
+        tax = shoulPay * 0.03
     elif 0 < shouldPay <= 3000:
         tax = shouldPay * 0.03
     elif 3000 < shouldPay <= 12000:
